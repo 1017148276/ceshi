@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sks.ceshi.BanQuanActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="22dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="       本APP为呼伦贝尔君达经贸投资有限公司的移动APP购物平台。
+
+具体用途
+1.对产品进行展示，按照家用电器、手机数码、电脑配件、日化百货、时尚女性、魅力男士、运动户外、母婴玩具、家居家装、珠宝配饰、美食特产进行分类。展示产品图片、数量、详细数据、评价、成交记录记录、产品推荐等信息。
+
+2.产品购买，消费者通过平台选购产品，可进行在线支付、货到付款，商家发货，消费者收货后完成购物流程。购物完成后，消费者可对产品进行评价。
+
+消费群体
+面向全国的消费者，通过平台可以方便快捷的购买到商品。"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="122dp"
+        android:text="呼伦贝尔君达经贸投资有限公司" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="蒙ICP备17005456号
+ "
+        android:layout_alignTop="@+id/textView5"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
