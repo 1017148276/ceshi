@@ -18,7 +18,7 @@ public class Tenant {
 
     public void rentRoom(Mediator mediator){
 
-                System.out.print("租到房间了" + mediator.rentOut(roomArea,roomPrice));
+                System.out.print("租到房间" + mediator.rentOut(roomArea,roomPrice));
     }
 
 
